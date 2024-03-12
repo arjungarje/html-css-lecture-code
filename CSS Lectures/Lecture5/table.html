@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contactUs{
+            background: thistle;
+            color:white ;
+        }
+        .contactUs table tr td{
+            width: 50%;
+            padding: 70;
+        }
+        input[type='text'],
+        input[type='number'],
+        input[type='Email'],
+        textarea
+        {
+            width: 90%;
+            padding: 10px;
+            // border: none; 
+        }
+        input[type='submit']
+        {
+           padding: 10px 93px; 
+           font-size: 27px;
+           border: none;
+           margin-top: 30px;
+           background-color: green;
+           color: white;
+        }
+        input[type='reset']
+        {
+            margin-top: 30px;
+            padding: 10px 93px;
+            font-size: 27px;
+            border: none;
+            margin-left: 30px;
+            background-color: tomato;
+            color: white;
+        }
+
+        label{
+            font-size: 13px;
+            color: black;
+            font-family: 'Cooper';
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <section class="contactUs">
+        <table width="100%">
+            <tr>
+                <td>
+                    <form>
+                        <label>User Name</label><br>
+                        <input type="text" name="username"
+                        placeholder="Enter user Name" ><br>
+                        <label>User Email Id</label><br>
+
+                        <input type="Email" name="useremil"
+                        placeholder="Enter user Email id" ><br>
+
+                        <label>User mobile No.</label><br>
+                        <input type="number" name="usernumber"
+                        placeholder="Enter user mobile No" ><br>
+
+                        <label for="">User Feedback</label>
+                        <textarea name="User feedback" cols="" rows="5">Enter User Feedback</textarea><br>
+                        <input type="submit" vallue="Submit">
+                        <input type="reset" value="cancle">
+
+                    </form>
+                    <td>
+                        <img src="https://img.freepik.com/free-photo/smiling-woman-headset-presentation-something_329181-11710.jpg?w=900&t=st=1709806807~exp=1709807407~hmac=8a9aa25fc079dc7c64835de992f409f1ec87e2721a8de2946bb727dbcfb7b273"
+                       width="80%" height="400" alt="Tellicolling image" >
+                    </td>
+
+                </td>
+            </tr>
+        </table>
+
+    </section>
+</body>
+</html>
