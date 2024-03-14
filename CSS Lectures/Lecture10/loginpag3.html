@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+        }
+        div{
+            display: flex;
+        }
+        input,label{
+            display: block;
+        }
+        .form1{
+            padding: 90px 30px;
+            margin: 150px auto;
+            background-color: rgba(255,255,255, 0.9);
+            width: 500px;
+            border-radius: 10px;
+            color:black;
+        }
+        .form2{
+            padding: 90px 30px;
+            margin: 150px auto;
+            background-color: #0064cc;
+            width: 500px;
+            border-radius: 10px;
+            color:black;
+        }
+        h1{
+            text-align: center;
+            font-family: Cooper;
+        }
+        lable{
+            font-size: 20px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+             
+            border: none;
+            outline: none;
+        }
+        input[type="submit"]{
+        background-color: pink;
+        color: white;
+        font-size: 20px;
+        }
+        body{
+            width: 100%;
+            height: 500%;
+            background-image: url(https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg);
+            background-size: 100% 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div 
+    class="form">
+    <form class="form1">
+        <h1>Login for form 1</h1>
+        <label for="">Your Email</label>
+        <input type="email" name="youremail" placeholder="Enter Your Email">
+        <label for="">Your Password</label>
+        <input type="password" name="yourpassword" placeholder="Enter Your Password">
+        <input type="submit" value="Login">
+    </form>
+    <form class="form2">
+        <h1>Login for form 2</h1>
+        <label for="">Your Email</label>
+        <input type="email" name="youremail" placeholder="Enter Your Email">
+        <label for="">Your Password</label>
+        <input type="password" name="yourpassword" placeholder="Enter Your Password">
+        <input type="submit" value="Login">
+    </form>
+ </div>
+</body>
+</html>
